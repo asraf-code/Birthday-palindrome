@@ -43,6 +43,28 @@ h2 {
   
 }
 
+
+#btn-nav {
+  background: var(--primary-color);
+  border: none;
+  color: #fff;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  font-size: large;
+  cursor: pointer;
+  outline: #fff;
+  margin: auto;
+  display: block;
+  
+  
+}
+
+nav {
+  margin-bottom: 3rem;
+  max-width: 15vh;
+  margin-top: 5rem;
+}
+
 .input-label {
   display: block;
   font-size: large;
