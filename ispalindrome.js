@@ -191,10 +191,10 @@ function reverseStr(str) {
   var resultRef = document.querySelector('#result');
   
   function clickHandler(e){
-    var bdayStr = dateInputRef.value; // 2020-10-11
+    var bdayStr = dateInputRef.value; 
     
     if(bdayStr !== ''){
-      var listOfDate = bdayStr.split('-'); // ['2020', '10', '11']
+      var listOfDate = bdayStr.split('-'); 
   
       var date = {
         day: Number(listOfDate[2]),
