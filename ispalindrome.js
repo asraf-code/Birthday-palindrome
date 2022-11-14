@@ -197,7 +197,7 @@ function reverseStr(str) {
       var listOfDate = bdayStr.split('-'); 
   
       var date = {
-        day: Number(listOfDate[2]),
+        day: Number(listOfDate[2]), // in console it logs as last in array.
         month: Number(listOfDate[1]),
         year: Number(listOfDate[0])
       };
@@ -221,4 +221,4 @@ function reverseStr(str) {
     }
   }
   
-  showBtnRef.addEventListener('click', clickHandler);
+  showBtnRef.addEventListener('click', clickHandler);  
